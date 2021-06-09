@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>ani-button</title>
+  <meta charset="UTF-8" />
+  <link rel="stylesheet" href="./node_modules/@animaliads/css-tokens/global-tokens.css">
+
+</head>
+
+<body>
+  <ani-button>Hello!</ani-button>
+
+  <script src="./node_modules/@animaliads/ani-button/index.js"></script>
+  </script>
+
+  <script>
+    const button = document.querySelector("ani-button");
+
+    button.addEventListener("onClick", () => {
+      alert("event click!");
+    });
+  </script>
+</body>
+
+</html>
