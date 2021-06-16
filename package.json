@@ -3,6 +3,8 @@
   "version": "0.0.0",
   "private": true,
   "dependencies": {
-    "@animaliads/ani-button": "dev"
+    "@animaliads/ani-button": "dev",
+    "@animaliads/animalia-brand": "dev",
+    "@animaliads/css-tokens": "dev"
   }
 }
